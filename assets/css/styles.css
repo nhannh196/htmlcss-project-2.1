@@ -14,6 +14,11 @@ body {
     /* height: 1000px; */
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 .layout {
     display: grid;
     width: 100%;
@@ -345,7 +350,8 @@ a {
 
 /* -------------------------------------- Features -------------------------------------- */
 .features {
-    margin-top: 130px;
+    padding-top: 85px;
+    margin-top: 45px;
 }
 
 .features__content {
@@ -437,7 +443,8 @@ a {
 
 /* -------------------------------------- Courses -------------------------------------- */
 .courses {
-    margin-top: 130px;
+    padding-top: 85px;
+    margin-top: 45px;
 }
 
 .courses__content {
@@ -592,7 +599,8 @@ a {
 
 /* -------------------------------------- Countdown -------------------------------------- */
 .countdown {
-    margin-top: 265px;
+    padding-top: 85px;
+    margin-top: 180px;
 }
 
 .countdown-content {
@@ -620,3 +628,153 @@ a {
     font-weight: 400;
     line-height: normal;
 }
+
+/* -------------------------------------- Testimonial -------------------------------------- */
+.testimonial {
+    margin-top: 264px;
+}
+
+.testimonial-content {
+    display: flex;
+    gap: 72px;
+}
+
+.testimonial__left {
+    width: 36%;
+}
+
+.testimonial__right{
+    width: 58%;
+}
+
+.testimonial__left img {
+    width: 36px;
+    height: 29px;
+}
+
+.testimonial__left .quote {
+    margin-top: 27px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 150% */
+}
+
+.testimonial__left .user-name {
+    margin-left: 13px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.testimonial__left .user-name b {
+    position: relative;
+    gap: 5px;
+    color: #070707;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: normal; */
+}
+
+.testimonial__left .user-name b::before {
+    position: absolute;
+    left: -13px;
+    top: 11px;
+    content: "";
+    width: 8px;
+    height: 2px;
+    background: #070707;
+}
+
+.testimonial__left__action {
+    margin-top: 52px;
+    display: flex;
+    gap: 30px;
+}
+
+.testimonial__left__action .btn-left,
+.testimonial__left__action .btn-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #2ac9bf;
+}
+
+.testimonial__left__action .btn-left img,
+.testimonial__left__action .btn-right img {
+    width: 6px;
+    height: 12px;
+    stroke-width: 2px;
+    stroke: #fff;
+}
+
+.testimonial__right {
+    position: relative;
+}
+
+.testimonial__right .avatar-01 {
+    position: absolute;
+    top: 258px;
+    right: 601px;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.testimonial__right .avatar-02 {
+    position: absolute;
+    top: 0;
+    right: 443px;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    object-fit: cover;background-color: #1EBFC1;
+}
+.testimonial__right .avatar-03 {
+    position: absolute;
+    top: 403px;
+    right: 389px;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #FF947A;
+}
+.testimonial__right .avatar-04 {
+    position: absolute;
+    top: 107px;
+    right: 171px;
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #FF8282;
+}
+.testimonial__right .avatar-05 {
+    position: absolute;
+    top: 374px;
+    right: 32px;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #B1DFDC;
+}
+.testimonial__right .avatar-06 {
+    position: absolute;
+    top: 19px;
+    right: 0;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #BF83FF;
+}
+
+/* -------------------------------------- Guide -------------------------------------- */

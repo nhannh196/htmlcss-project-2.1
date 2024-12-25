@@ -155,7 +155,8 @@ a {
 
 /* -------------------------------------- Hero -------------------------------------- */
 .hero {
-    padding: 34px 0 79px;
+    margin-top: -86px;
+    padding: 120px 0 79px;
 }
 
 .hero-content {
@@ -826,6 +827,7 @@ a {
     grid-template-areas:
         "logo column-1 column-2 column-3 column-4"
         "copyright copyright copyright copyright copyright";
+        justify-content: space-between;
 }
 
 .footer__layout .title {
